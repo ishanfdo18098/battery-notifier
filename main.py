@@ -9,8 +9,8 @@ from battery_notifier import BatteryNotifier
 app_name = 'Battery Notifier'
 low_battery_summary = 'Battery Low'
 high_battery_summary = 'Battery High'
-low_battery_message = 'Rohit, plugged in the power'
-high_battery_message = 'Rohit, remove the power plug'
+low_battery_message = 'Battery is at 40%'
+high_battery_message = 'Battery is at 80%'
 low_battery_icon = 'battery-low'
 high_battery_icon = 'battery-full'
 low_level_percentage = 40

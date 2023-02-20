@@ -1,5 +1,12 @@
 [Unit]
 Description=Battery Low/High Percentage Notifier
+After=multi-user.target
 
 [Service]
+ExecStart=/usr/bin/python3 /home/ishanfdo/Downloads/battery-notifier/main.py
 Restart=always
+User=ishanfdo
+StandardInput=tty-force
+
+[Install]
+WantedBy=multi-user.target
